@@ -1,111 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>App Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-    <script src="vendors/jquery.easings.min.js"></script>
-
-
-    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
-
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    
-    
-    <script>
-        $(document).ready(function() {
-	       $('#fullpage').fullpage();
-        });
-    </script>
+	<meta charset="UTF-8">
+	<title>Moonpad.CSS</title>
+	<link rel="stylesheet" href="w3.css">
+	<style>
+		body{
+			background: white;
+		}
+		hr{
+			color: coral;
+			background: coral;
+		}
+		.sidebar{
+			height: 100vh;
+			width: 20%;
+			border: 0;
+			margin:0;
+		}
+		.container{
+			width:80%;
+			margin-left: 20%;
+		}
+		ul{
+			margin-top: 80%;
+			margin-left: 8%;
+		}
+	</style>
 </head>
 <body>
-    <!-- 1st slide http://place-hold.it/300x500 -->
-    <div id="fullpage">
-        <div class="section">
-            <div class="landing">
-                <div class="landingWrapper">
-                    <div class="nav">
-                        <a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
-                        <div class="pages">
-                            <a href="#">How It Works</a>
-                            <a href="#">App Features</a>
-                            <a href="#">About Us</a>
-                            <a href="#" class="btnOne">Sign Up</a>
-                        </div>
-                    </div>
-                    <div class="landingContent">
-                        <div class="contentLeft">
-                            <h1>Work Better Together. Schedule<br> Meetings In An Instant.</h1>
-                            <p>Available for download on Lorem ipsum dolor sit amet consectetur adipisicing. <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit.   </p>
-                            <p>Available for download on the Google Play Store and <br>App Store.</p>
-                            <a href="#" class="btnTwo">Download App</a>
-                        </div>
-                        <div class="contentRight">
-                            <img src="images/iphoneX_inHand.png" alt="iphone X in hand" class="iphoneHand">
-                        </div>
-                    </div>
+	<div class="sidebar blue">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>More</li>
+			<li>Others</li>
+			<li>Learn</li>
+		</ul>
+	</div>
 
-                </div>
-            </div>
-        </div>
+	<div class="container">
+	
+	<hr>
+	<h2 class="yellow">hello world</h2>
+	<h3 class="white">Heading </h3>
+	<h4 class="teal">Heading </h4>
+	<h5 class="gray">Heading</h5>
+	<p class="blue-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, <hr> voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto architecto, perspiciatis voluptatum minus dolor? Ipsum molestias consequuntur maiores nam repellendus, nulla expedita, soluta non deserunt molestiae vel earum neque inventore? </p>
+	<h3 class="red-text">hello </h3>
+	<div class="container blue card-4">
+  <h1>I am a Heading</h1>
+  <p>I am a paragraph.</p>
+  <p>Normally you will not have to change the default padding of a container, because paragraphs and heading provide margins that will simulate padding.</p>
+</div>
 
-        <div class="section">
-            <div class="features">
-                <div class="date">
-                    <img src="images/cal_icon.png" alt="calender icon">
-                    <h1>Easily Set The Date</h1>
-                    <p>Sccess to your personal calendar <br>lets you check for open schedule dates.</p>
-                </div>
-                <div class="time">
-                    <img src="images/clock_icon.png" alt="clock icon">
-                    <h1>Running Late?</h1>
-                    <p>Set the meetings time. If you ever need <br> to dalay, all members of the meeting will be <br> notified immediately.</p>
-                </div>
-            </div>
-        </div>
+  <div class="panel red card-2">
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In repellat iste quidem tenetur hic natus dolorem facere, qui eaque voluptas porro aperiam, assumenda praesentium excepturi rerum voluptatibus maxime ab suscipit.</p>
+  </div>
 
-        <div class="section">
-            <div class="groups">
-                <div class="groupsWrapper">
-                    <div class="groupsContent">
-                        <div class="contentLeft">
-                            <img src="images/search_icon.png" alt="search">
-                            <h1>Search Groups and Friends</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing illum ipsa id illo <br> expedita aperiam, porro asperiore praesentium impedit</p>
-                        </div>
-                        <div class="contentRight">
-                            <img src="images/people_groups.png" alt="contacts" class="groupsImage">
-                        </div>
-                    </div>
-                    
-                    <div class="footer">
-                        <p>&copy; 2018 Meetings</p>
-                        <div class="pagesRight">
-                            <a href="#"><p>Terms</p></a>
-                            <a href="#"><p>Privacy</p></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div> <!-- Full page div -->
-
-    
-
-
-    
-
-
-    
-</body>    
+ <div class="panel card-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eos amet quos quidem odio quaerat officia veritatis maxime possimus laborum, minima distinctio, dolore voluptates blanditiis vitae quis fugit facilis similique.</div>
+	</div>
+</body>
 </html>
