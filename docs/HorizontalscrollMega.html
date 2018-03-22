@@ -5,23 +5,28 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-}
+ div.scrollmenu {
+            background-color: rgb(242, 71, 71);
 
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+        }
 
-div.scrollmenu a:hover {
-    background-color: #777;
-}
+        div.scrollmenu a {
+            display: inline-block;
+            color: #f1ecec;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        div.scrollmenu a:hover {
+            background-color: #17a2b8;
+        }
+        .bg { 
+            background-color: #17a2b8;
+            }
 /*.w3-modal-content{
 height:
 }*/
@@ -30,7 +35,7 @@ height:
 <body>
 
 <div class="scrollmenu">
-  <a href="#home">Home</a>
+  <a href="#home" class="bg">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about" onclick="document.getElementById('id01').style.display='block'">About</a>
