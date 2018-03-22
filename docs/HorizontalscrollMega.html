@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+/*.w3-modal-content{
+height:
+}*/
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about" onclick="document.getElementById('id01').style.display='block'">About</a>
+  <a href="#support">Support</a>
+  <a href="#blog">Blog</a>
+  <a href="#tools">Tools</a>  
+  <a href="#base">Base</a>
+  <a href="#custom">Custom</a>
+  <a href="#more" onclick="document.getElementById('id02').style.display='block'">More</a>
+  <a href="#logo">Logo</a>
+  <a href="#friends">Friends</a>
+  <a href="#partners">Partners</a>
+  <a href="#people">People</a>
+  <a href="#work">Work</a>
+</div>
+
+        <h2>Horizontal Scrollable Menu</h2>
+        <p>Resize the browser window to see the effect.</p>
+          
+
+
+          <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-teal"> 
+                  <span  onclick="document.getElementById('id01').style.display='none'" 
+                  class="w3-button w3-display-topright w3-large">&times;</span>
+                  <h4>Electronics</h4>
+                </header>
+                <div class="w3-container">
+                  <p>Some text..</p><p>Some text..</p>
+                  <p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                  <p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p><p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p><p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                      <div class="w3-row">
+                          <div class="w3-col s6 w3-green w3-center"><p>s6</p></div>
+                          <div class="w3-col s6 w3-dark-grey w3-center"><p>s6</p></div>
+                       </div>
+                </div>
+                <footer class="w3-container w3-teal">
+                  <p>Modal Footer</p>
+                </footer>
+              </div>
+            </div>
+            
+
+
+            
+            <div id="id02" class="w3-modal">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-teal"> 
+                  <span  onclick="document.getElementById('id02').style.display='none'" 
+                  class="w3-button w3-display-topright w3-large">&times;</span>
+                  <h4>More 2 iDs</h4>
+                </header>
+                <div class="w3-container">
+                  <p>Some text..</p><p>Some text..</p>
+                  <p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                  <p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p><p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p><p>Some text..</p><p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                      <div class="w3-row">
+                          <div class="w3-col s6 w3-green w3-center"><p>s6</p></div>
+                          <div class="w3-col s6 w3-dark-grey w3-center"><p>s6</p></div>
+                       </div>
+                </div>
+                <footer class="w3-container w3-teal">
+                  <p>Modal Footer</p>
+                </footer>
+              </div>
+            </div>
+            
+
+</body>
+</html>
