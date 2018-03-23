@@ -135,7 +135,7 @@ div.scrollmenu {
 
 div.scrollmenu a {
     display: inline-block;
-    color: #181616ec;
+    color: rgba(0, 0, 0, 0.822);
     text-align: center;
     padding: 8px;
     text-decoration: none;
