@@ -41,10 +41,10 @@
           <a href="#"><img src="images/flip.png" alt="logo" width="150px" height="30px" class="logo w3-card-4"></a>
           
       <form >
-        <input type="text" name="search" result=5 autosave=unique placeholder="Search for products, brands and more.">
+        <input type="text" name="search" result=5 autosave=unique placeholder="Search products, brands and more.">
       </form>
 
-            <div class="pages">
+            <div class="pages mtop">
                   <a href="#">LogIn &amp; Signup</a>
                   <a href="#">More <i class="fa fa-angle-down"></i></a>
                   <a href="#"><i class="fa fa-shopping-cart"></i> Cart </a>
@@ -371,16 +371,34 @@
 
     <!-- Carousels -->
     <div class=" w3-display-container">
-      <img class="mySlides w3-animate-left" src="http://placehold.it/1000x200" style="width:100%">
-      <img class="mySlides w3-animate-right" src="http://placehold.it/1000x200" style="width:100%">
-      <img class="mySlides w3-animate-right" src="http://placehold.it/1000x200" style="width:100%">
-      <img class="mySlides w3-animate-right" src="http://placehold.it/1000x200" style="width:100%">
+      <img id="res" class="mySlides  imgheight" src="http://placehold.it/1000x300" style="width:100%">
+      <img id="res" class="mySlides  imgheight" src="http://placehold.it/1000x300" style="width:100%">
+      <img id="res" class="mySlides  imgheight" src="http://placehold.it/1000x300" style="width:100%">
+      <img id="res" class="mySlides  imgheight" src="http://placehold.it/1000x300" style="width:100%">
 
       <button class="btn w3-card w3-white w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="btn w3-card w3-white w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
     </div>
     <!-- <Carosel End></Carosel> -->
+
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolores ipsum optio fuga tempora ea sint expedita quaerat corrupti amet dolorem, ipsam asperiores, consectetur sit nemo quidem dolor iure magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus eum blanditiis cum nostrum voluptas nam molestiae fuga? Repellat neque ducimus aliquid tempore cupiditate placeat nulla quisquam atque expedita debitis.</p>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam incidunt ex odit architecto et molestiae dolore vero labore perferendis perspiciatis! Aliquid odit iure quos velit, atque temporibus maxime deleniti voluptates!
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur unde dolore quam et quas ipsam accusantium totam, eveniet quod voluptatum assumenda quo, ab optio corporis doloribus modi sint recusandae! Ex!
+    </p>
+    <div class="w3-container w3-center ">
+      <img src="http://placehold.it/300x150" class="mtop" alt="a">
+      <br>
+<img src="http://placehold.it/300x150" class="mtop"  alt="a">
+<br>
+<img src="http://placehold.it/300x150" class="mtop" alt="a">
+<br>
+      
+
+    </div>
+    <h4 class="w3-panel w3-center w3-blue">Footer &copy; 2018 Nobody</h4>
     
 
 
@@ -404,22 +422,22 @@
         setTimeout(carousel, 3000);
       }
 
-      var slideIndex = 1;
-        showDivs(slideIndex);
+      var sIndex = 1;
+        showDivs(sIndex);
 
         function plusDivs(n) {
-          showDivs(slideIndex += n);
+          showDivs(sIndex += n);
         }
 
         function showDivs(n) {
-          var i;
+          var m;
           var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) { slideIndex = 1 }
-          if (n < 1) { slideIndex = x.length }
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
+          if (n > x.length) { sIndex = 1 }
+          if (n < 1) { sIndex = x.length }
+          for (m = 0; m < x.length; m++) {
+            x[m].style.display = "none";
           }
-          x[slideIndex - 1].style.display = "block";
+          x[sIndex - 1].style.display = "block";
         }
     </script>
   </body>
