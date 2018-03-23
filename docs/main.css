@@ -10,6 +10,9 @@
 }
 
 /* fonts */
+.mtop{
+    margin-top: 15px;;
+}
 .myfont{
     font-family: 'Raleway',sans-serif;
 }
@@ -40,6 +43,9 @@ html{
     float: right;
     text-align: right;
 }
+/* .imgheight{
+    height: 400px !important;
+} */
 @media (max-width: 352px){
     .pages{
         font-size: 12px;
@@ -47,6 +53,12 @@ html{
     }
     .btn{
         padding: 0px !important;
+    }
+    
+}
+@media (max-width:510px){
+    .imgheight {
+        height: 200px !important;
     }
 }
 @media (max-width: 858px){
@@ -69,6 +81,9 @@ html{
     }
     .btn{
         padding:6px !important;
+    }
+    .mtop{
+        margin-top: 10px;
     }
      
 }
@@ -120,7 +135,7 @@ div.scrollmenu {
 
 div.scrollmenu a {
     display: inline-block;
-    color: #212121d7;
+    color: #212121ec;
     text-align: center;
     padding: 8px;
     text-decoration: none;
