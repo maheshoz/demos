@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images/search.png" >
+
+
+    <title>FlipKart Demo</title>
+
+
+    <style>
+     /*a:hover, .w3-bar-item:hover , .w3-button:hover{
+      background: lightblue;
+     }*/
+     .w3-button:hover {
+    color: white !important;
+    background-color: #384bf7 !important;
+       }
+
+   .w3-button {
+    color: white !important;
+    background-color: #2874f0 !important;
+        }
+
+        .w3-blue {
+           color: #fff!important;
+           background-color: #2874f0 !important;
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- logo Nav -->
+    <div class="nav">
+        <!-- <a href="#"><img src="images/flip.png" alt="logo" class="logo" ></a> -->
+          <a href="#"><img src="images/flip.png" alt="logo" width="150px" height="30px" class="logo w3-card-4"></a>
+          
+      <form >
+        <input type="text" name="search" result=5 autosave=unique placeholder="Search for products, brands and more.">
+      </form>
+
+            <div class="pages">
+                  <a href="#">LogIn &amp; Signup</a>
+                  <a href="#">More <i class="fa fa-angle-down"></i></a>
+                  <a href="#"><i class="fa fa-shopping-cart"></i> Cart </a>
+                  <a href="#"><i class="fa fa-user"></i></a>
+            </div>
+    </div>
+
+    <!-- Scroll Nav -->
+    <div class="scrollmenu">
+      <a href="#" class="w3-card-2"><i class="fa fa-angle-double-right " style="font-size:16px" ></i></a>
+      <a href="#" onclick="document.getElementById('id1').style.display='block'">Electronics <i class="fa fa-angle-down opac"></i></a>
+      <a href="#" onclick="document.getElementById('id2').style.display='block'">Tv &amp; Appliances <i class="fa fa-angle-down opac"></i></a>
+      <a href="#" onclick="document.getElementById('id3').style.display='block'">Men <i class="fa fa-angle-down"></i></a>
+      <a href="#" onclick="document.getElementById('id4').style.display='block'">Women <i class="fa fa-angle-down opac"></i></a>
+      <a href="#" onclick="document.getElementById('id5').style.display='block'">Baby &amp; Kids <i class="fa fa-angle-down opac"></i></a>
+      <a href="#" onclick="document.getElementById('id6').style.display='block'">Home &amp; Furniture <i class="fa fa-angle-down opac"></i></a>
+      <a href="#" onclick="document.getElementById('sports').style.display='block'">Sports,Books &amp; More <i class="fa fa-angle-down opac"></i></a>
+      <a href="#">Offer Zone </a>
+      <a href="#" class="w3-card-2">
+        <i class="fa fa-angle-double-left" style="font-size:16px"></i>
+      </a>
+      
+    </div>
+
+
+    <!-- MOdels -->
+    <div id="id1" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('id1').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+          <h4>Electronics</h4>
+        </header>
+        <div class="w3-container">
+          <div class="w3-col s6  w3-center">
+            Mobiles <br> Laptops <br>Televisions <br> Audio &amp; Video
+          </div>
+          <div class="w3-col s6  w3-center">
+             Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <div class="w3-row">
+            <div class="w3-col s6 w3-green w3-center">
+              
+            </div>
+            <div class="w3-col s6 w3-dark-grey w3-center">
+              
+            </div>
+          </div>
+        </div>
+        <footer class="w3-container w3-blue">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <div id="id2" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-blue">
+              <span onclick="document.getElementById('id2').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+              <h4>Tv &amp; Appliances</h4>
+            </header>
+                <div class="w3-container">
+                  <div class="w3-col s6  w3-center">
+                    Mobiles
+                    <br> Laptops
+                    <br>Televisions
+                    <br> Audio &amp; Video
+                  </div>
+                  <div class="w3-col s6  w3-center">
+                    Mobiles
+                    <br> Laptops
+                    <br>Televisions
+                    <br> Audio &amp; Video
+                  </div>
+                  <p>Some text..</p>
+                  <p>Some text..</p>
+                  <p>Some text..</p>
+                  <p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                  <p>Some text..</p>
+                  <p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                  <p>Some text..</p>
+                  <p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                  <p>Some text..</p>
+                  <p>Some text..</p>
+                  <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+                  
+                  
+               </div>
+       
+        <footer class="w3-container w3-blue">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <div id="id3" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('id3').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+          <h4> Men</h4>
+        </header>
+        <div class="w3-container">
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+    
+    
+        </div>
+    
+        <footer class="w3-container w3-blue">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <div id="id4" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('id4').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+          <h4> Women</h4>
+        </header>
+        <div class="w3-container">
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+    
+    
+        </div>
+    
+        <footer class="w3-container w3-blue">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <div id="id5" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('id5').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+          <h4> Baby &amp; Kids</h4>
+        </header>
+        <div class="w3-container">
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+    
+    
+        </div>
+    
+        <footer class="w3-container w3-blue">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <div id="id6" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('id6').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+          <h4> Home &amp; Furniture</h4>
+        </header>
+        <div class="w3-container">
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+    
+    
+        </div>
+    
+        <footer class="w3-container w3-blue">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <div id="sports" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('sports').style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+          <h4> Sports</h4>
+        </header>
+        <div class="w3-container">
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <div class="w3-col s6  w3-center">
+            Mobiles
+            <br> Laptops
+            <br>Televisions
+            <br> Audio &amp; Video
+          </div>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text.. use entire nav items on large scrns and grid row in md and hide on sm and show more..</p>
+    
+    
+        </div>
+    
+        <footer class="w3-container w3-blue w3-panel">
+          <p>New Offers</p>
+        </footer>
+      </div>
+    </div>
+    <!-- End Modals -->
+
+    <!-- Carousels -->
+    <div class=" w3-display-container">
+      <img class="mySlides w3-animate-left" src="http://placehold.it/1000x200" style="width:100%">
+      <img class="mySlides w3-animate-right" src="http://placehold.it/1000x200" style="width:100%">
+      <img class="mySlides w3-animate-right" src="http://placehold.it/1000x200" style="width:100%">
+      <img class="mySlides w3-animate-right" src="http://placehold.it/1000x200" style="width:100%">
+
+      <button class="btn w3-card w3-white w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="btn w3-card w3-white w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+    </div>
+    <!-- <Carosel End></Carosel> -->
+    
+
+
+
+   
+
+
+    <script>
+      var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) { slideIndex = 1 }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000);
+      }
+
+      var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = x.length }
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+  </body>
+</html>
