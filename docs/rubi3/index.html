@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>RubiTravels | Choose your Car</title>
+  <meta name="description" content="A simple travels website for the Travellers">
+  <meta name="author" content="mahesh">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <style>
+
+
+  @keyframes ldt-zoom-in {
+        0%,
+        20%,
+        100% {
+            animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+            }
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+              @-webkit-keyframes ldt-zoom-in {
+                0%,
+                20%,
+                100% {
+                    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+                }
+                0% {
+                    -webkit-transform: scale(0);
+                    transform: scale(0);
+                }
+                100% {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
+            }
+    .ldt-zoom-in {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-animation: ldt-zoom-in 2s forwards;
+        animation: ldt-zoom-in 2s forwards;
+}
+    h3{
+      display: inline;
+      text-align: center;
+      margin: 0  auto;
+      padding-left: 28%;
+    }
+    .pt{
+      padding-top: 10vh;
+    }
+    .gray{
+    background: #04ba95;
+    color: #ffffff;
+    }
+    .pad{
+     margin-top: 5%;
+    }
+    .w3-btn {margin-bottom:10px;}
+    a{
+      text-decoration: none;
+    }
+    .fw{
+      font-size: 25px;
+    }
+    @media (max-width:450px){
+      .down{
+        margin-top: 30%;
+        padding-top: 30%;
+      }
+      
+    }
+    @media (min-width:412px){
+
+    }
+    .mtop{
+      margin-top: 40px;
+    }
+    .hope{
+      /* padding: 2px; */
+      margin-left: 14px;
+    }
+    .hope2{
+      margin-left: -20px;
+    }
+    .in{
+      display: inline;
+    }
+    .less{
+      font-size: 28px;
+      font-weight: 300;
+    }
+    @media(max-width:327px){
+      .less{
+        font-size: 18px;
+        float: left;
+      }
+    }
+    @media(min-width:400px){
+      .less{
+        float: right;
+      }
+    }
+    .bloc{
+      display: none;
+    }
+    @media(max-width:270px){
+      .less{
+        float: none;
+      }
+      .block{
+        display: none;
+        
+      }
+      .bloc{
+        display: block;
+      }
+    }
+    
+
+    
+  </style>
+
+</head>
+<body>
+
+<!-- NAVIGATION -->
+
+
+  
+ 
+
+  <div class="w3-top w3-card-2 gray">
+ 
+        <img src="images/logoright.png" alt="a" class="" style="width:40px;margin-top:10px;position: absolute; margin-left:15px;">
+     
+      <div class="w3-center ">
+        <a href="index.html">
+          <h2 class="hope2">Travels</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- nav end -->
+
+<div class="pt w3-container down" style="margin-top:23px;">
+      <div class="w3-row ">
+          <div class="w3-col  s12 m12 w3-center ">
+    
+          <img class="ldt-zoom-in" src="images/showcase.jpg" alt="sun" style="width:100%;max-width:600px;">
+        </div>
+
+</div>
+
+<!-- showcase end -->
+
+ 
+
+
+<div class="mtop"></div>
+
+ <div class="block">
+  <div class="w3-row">
+  
+    <div class="w3-col  w3-container" style="width:35%">
+      <p class="less">Choose</p>
+    </div>
+    <div class="w3-col  w3-container " style="width:65%">
+      <a href="rental.html">
+        <button class="w3-btn w3-teal w3-card  w3-border w3-round-large " style="width:90%">Rentals</button>
+      </a>
+      <a href="outstation.html">
+        <button class="w3-btn w3-card w3-teal w3-border w3-round-large " style="width:90%">OutStation</button>
+      </a>
+    </div>
+  </div>
+ </div>
+
+  <div class="bloc">
+    <h4 class="w3-center">Choose</h4>
+    <a href="rental.html">
+      <button class="w3-btn w3-teal w3-card  w3-border w3-round-large bloc" style="width:90%">Rentals</button>
+    </a>
+    <a href="outstation.html">
+      <button class="w3-btn w3-card w3-teal w3-border w3-round-large bloc" style="width:90%">OutStation</button>
+    </a>
+  </div>
+  
+  
+</div>
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
