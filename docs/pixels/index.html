@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pixels | find ur ScreenResolution</title>
+    <meta name="author" content="Mahesh">
+    <meta name="keywords" content="screen resolution, device width height, mobile width">
+    <meta name="Description" content="this application is useful to find ur screen resolution , width x height">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <meta http-equiv="refresh" content="10"> -->
+    <!-- to reload page every 10 seconds -->
+
+    <meta name="theme-color" content="#1454d5">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#1454d5">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1454d5">
+
+    <link rel="icon" type="image/ico" href="https://maheshoz.github.io/icon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="screenRes.css">
+</head>
+
+<body>
+    <div class="flex">
+        <div class="text">
+            <h1>Know Ur ScreenSize</h1>
+        </div>
+        <div class="app" id="app">
+            <div class="reload">
+                <img class="svg" src="reload.svg" alt="svg">
+            </div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <script>
+        let app = document.querySelector(".circle");
+        let svg = document.querySelector(".reload");
+        svg.addEventListener('click', res);
+
+        function res() {
+            let width = window.screen.width;
+            let height = window.screen.height;
+
+            // app.innerHTML = width + ' x ' + height;
+            app.innerHTML = `<span class="anim"> ${width} x  ${height}</span>`
+
+        }
+    </script>
+</body>
+
+</html>
